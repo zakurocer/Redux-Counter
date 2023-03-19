@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vh;
+}
+
+
+.Counter_div{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.Counter_div > h1{
+    font-size: 3vh;
+}
+
+
+.Counter_div > button, .Counter_div > div > button{
+
+    padding: 0.7vh 1.5vh;
+    background-color: white;
+    border: none;
+    border-radius: 0.2vh;
+    outline: none;
+
+    box-shadow: 0 0 0.2vh black;
+
+    transition: 0.1s all ease-in-out;
+}
+
+.Counter_div > div > button{
+    margin: 0 1vh;
+    padding: 0.7vh 6.02vh;
+
+}
+
+
+.Counter_div > button:hover, .Counter_div > div > button:hover{
+    background-color: black;
+    color: white;
+
+
+}
+
+
+.Counter_div > button:active, .Counter_div > div > button:active{
+
+transform: translateY(0.2vh);
+}
